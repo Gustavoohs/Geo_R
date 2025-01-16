@@ -4,8 +4,8 @@ library(sf)
 library(ggplot2)
 
 # Caminhos dos arquivos
-raster_path <- "C:/Users/Aluga.com/Downloads/LST_DF_2023.tif"
-vector_path <- "C:/Users/Aluga.com/Downloads/pts_LST.gpkg"
+raster_path <- "C:/Users/Gustavo/Downloads/LST_DF_2023.tif"
+vector_path <- "C:/Users/Gustavo/Downloads/pts_LST.gpkg"
 
 # Carregar o raster e o vetor
 raster <- rast(raster_path)
